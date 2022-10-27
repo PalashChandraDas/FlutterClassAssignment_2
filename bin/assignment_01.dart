@@ -6,6 +6,9 @@ void main(){
   //solution_1
   print("Hello\nPalash Chandra Das");
 
+  //this code write for testing clone
+  print("Testing Clone Project");
+
 
   //solution_2
   int num1 = 10;
