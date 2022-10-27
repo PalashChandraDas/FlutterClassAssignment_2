@@ -6,8 +6,8 @@ void main(){
   //solution_1
   print("Hello\nPalash Chandra Das");
 
-  //this code write for testing clone
-  print("Testing Clone Project");
+
+  storeVariable(); //Method calling...solution_3
 
 
   //solution_2
@@ -80,6 +80,7 @@ void storeVariable(){
   int num = 12;
   String string = '12';
   String myName = 'Palash Chandra Das';
+  print(myName);
   double decimalValue = 23.4;
   List <String> familyList = ['Palash Chandra Das', 'Krishna Chandra Das', 'Anupoma Rani Das'];
   List <int> numbers = [1, 2, 3, 4];
