@@ -14,34 +14,22 @@ void main(){
   print("The sum is = $sum");
 
 
-  //solution_3
-  void storeVariable(){
-    int num = 12;
-    String string = '12';
-    String myName = 'Palash Chandra Das';
-    double decimalValue = 23.4;
-    List <String> familyList = ['Palash Chandra Das', 'Krishna Chandra Das', 'Anupoma Rani Das'];
-    List <int> numbers = [1, 2, 3, 4];
-    Map <String, dynamic> student = {'id': 10, 'name': 'Palash Chandra Das'};
-  }
-
-
   //solution_4
-  int num1 = 13;
-  int num2 = 4;
-  int product = num1 * num2;
-  print("The product of $num1 and $num2 is = $product");
+  int num3 = 13;
+  int num4 = 4;
+  int product = num3 * num4;
+  print("The product of $num3 and $num4 is = $product");
 
 
   //solution_5
-  int num1 = 30;
-  int num2 = 4;
+  int num5 = 30;
+  int num6 = 4;
 
-  int addition = num1 + num2;
-  int multiply = num1 * num2;
-  int subtract = num1 - num2;
-  double divide = num1 / num2;
-  int reminder = num1 % num2;
+  int addition = num5 + num6;
+  int multiply = num5 * num6;
+  int subtract = num5 - num6;
+  double divide = num5 / num6;
+  int reminder = num5 % num6;
 
   print("The sum is = $addition");
   print("The multiplication is = $multiply");
@@ -67,9 +55,9 @@ void main(){
 
 
   //solution_9
-  int num1 = 83;
-  int num2 = 11;
-  int result1 = myNewMethod1(num1, num2); //method calling
+  int num7 = 83;
+  int num8 = 11;
+  int result1 = myNewMethod1(num7, num8); //method calling
   int result2 = myNewMethod2(result1); //method calling
   print(result2);
 
@@ -82,6 +70,19 @@ void main(){
 
 }
 //main_method_End
+
+
+//solution_3
+void storeVariable(){
+  int num = 12;
+  String string = '12';
+  String myName = 'Palash Chandra Das';
+  double decimalValue = 23.4;
+  List <String> familyList = ['Palash Chandra Das', 'Krishna Chandra Das', 'Anupoma Rani Das'];
+  List <int> numbers = [1, 2, 3, 4];
+  Map <String, dynamic> student = {'id': 10, 'name': 'Palash Chandra Das'};
+}
+
 
   //solution_7
   double division(int num1, int num2) {
